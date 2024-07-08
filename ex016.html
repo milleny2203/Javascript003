@@ -12,19 +12,23 @@
     </header>
     <section>
         <div>
-            <p>Início:
-           <input type="number" name="txtinicio" id="txtinicio" min="0"></p>
-            <p>Fim:
-            <input type="number" name="txtfim" id="txtfim"></p>
-            <p>Passo:
-            <input type="number" name="txtpasso" id="txtpasso"></p>
-            <p><input type="button" value="CONTAR" onclick="contar()" class="botao" onmouseenter="entrar()"></p>
+            <p>Início:&nbsp;&nbsp;
+            <input type="number" name="txtinicio" id="txtinicio" min="0" class="txt" ></p>
+            <p>Fim:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="number" name="txtfim" id="txtfim" class="txt" ></p>
+            <p>Passo:&nbsp;&nbsp;
+            <input type="number" name="txtpasso" id="txtpasso" class="txt" ></p>
+
+            <p><input type="button" value="CONTAR" onclick="contar()" class="botao" >
+                <input type="button" value="LIMPAR" class="botao2" onclick="limpar()">
+            </p>
+
         
         </div>
         <div id="res">
             Preparando a contagem ...
         </div>
-        <div id="resultado"></div>
+        <div id="resultado" ></div>
     </section>
     <footer>
         <p>&copy; MillenyStefany</p>

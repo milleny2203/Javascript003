@@ -36,6 +36,19 @@ div{
     color: white;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
+.botao2{
+    background-color: #ff3535;
+    font-size: 12px;
+    border-radius: 2px;
+    border: 2px solid #ff3535;
+    border-width: 8px;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+input{
+    border: 2px solid rgb(179, 179, 179);
+    font-size: 15px;
+}
 
 footer{
     color: rgb(191, 207, 255);
